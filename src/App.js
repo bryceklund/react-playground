@@ -15,6 +15,7 @@ function App() {
       <TheDate />
       <Counter count={123} />
       <HelloWorld />
+      <Bomb />
     </div>
   );
 }
