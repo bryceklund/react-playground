@@ -3,6 +3,7 @@ import './App.css';
 import Messages from './Messages';
 import TheDate from './state/TheDate';
 import Counter from './state/Counter/Counter';
+import HelloWorld from './state-drills/HelloWorld';
 
 
 
@@ -13,6 +14,7 @@ function App() {
       <Messages name="Notifications" unread={10} />
       <TheDate />
       <Counter count={123} />
+      <HelloWorld />
     </div>
   );
 }
