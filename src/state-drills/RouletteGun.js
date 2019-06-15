@@ -25,6 +25,9 @@ class RouletteGun extends Component {
         }
         
     }
+    componentWillUnmount() {
+        
+    }
     render() {
         return (
             <div>
