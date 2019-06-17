@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion Component opens a clicked section 1`] = `ShallowWrapper {}`;
+
+exports[`Accordion Component renders an empty \`li\` when the \`sections\` prop is not provided 1`] = `
+<ul>
+  <li
+    key="0"
+  />
+</ul>
+`;
+
+exports[`Accordion Component renders no sections as active by default 1`] = `
+<ul>
+  <li
+    key="0"
+  />
+  <li
+    key="1"
+  />
+  <li
+    key="2"
+  />
+</ul>
+`;
