@@ -8,6 +8,7 @@ import Bomb from './state-drills/Bomb';
 import RouletteGun from './state-drills/RouletteGun';
 import Tabs from './state/Tabs';
 import Accordion from './state-drills/Accordion';
+import DemonymApp from './demonymapp/DemonymApp';
 
 
 
@@ -35,7 +36,7 @@ function App() {
       content: 'Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.' }
   ];
   return (
-    <div className="App">
+    <div className="App">{/*}
       <Messages name="Messages" unread={0} />
       <Messages name="Notifications" unread={10} />
       <TheDate />
@@ -45,7 +46,10 @@ function App() {
       <RouletteGun bulletInChamber={8} />
       <Tabs tabs={tabsProp} />
       <br />
-      <Accordion />
+      <Accordion />*/}
+      <br />
+      <br />
+      <DemonymApp />
     </div>
   );
 }
