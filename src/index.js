@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import AppLang from './lang-context/AppLang';
+import RegistrationForm from './registrationForm/registrationForm';
+import App from './playingwithdanger/App';
+
 
 ReactDOM.render(
     <BrowserRouter>
-        <AppLang />
+        <App />
     </BrowserRouter>, document.getElementById('root'));

@@ -4,10 +4,10 @@ import LanguageContext from './LanguageContext';
 
 
 class GreatGrandChild extends Component {
+    static contextType = LanguageContext;
     render() {
-        const copy = languageSpecificCopy[LanguageContext._currentValue.lang] || {}
-        console.log(languageSpecificCopy)
-        console.log(LanguageContext._currentValue.lang)
+        const copy = languageSpecificCopy[this.context.lang] || {}
+        console.log(copy)
         return (
             <section>
                 <h2>
@@ -16,7 +16,7 @@ class GreatGrandChild extends Component {
                 <p>
                     {copy.body}
                 </p>
-                <button onClick={() => console.log(this.context)}>
+                <button onClick={() => this.context.setLang('klingon')}>
                     Klingon{' '}
                     <span role='img' aria-label='klingon'>🖖</span>
                 </button>
